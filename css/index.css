@@ -112,6 +112,85 @@ p {
     justify-content: center;
 }
 
+.logo-img {
+    float:left;
+    display:inline-block;
+}
+
+.header .links {
+    border:none;
+    background-color:none;
+    outline:none;
+    padding:18px 40px;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.header .links .link1 {
+    margin-right:25px;
+    margin-left:25px;
+}
+
+.header .links .link2 {
+    margin-right:25px;
+    margin-left:25px;
+}
+
+.header .links .link3 {
+    margin-right:25px;
+    margin-left:25px;
+}
+
+.header .links .link4 {
+    margin-right:25px;
+    margin-left:25px;
+}
+
+.header .links .link5 {
+    margin-right:25px;
+    margin-left:25px;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color:teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color:gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color:coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color:crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color:indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +222,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-boxes1 {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+
+.about-boxes2 {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+
+.about-pics {
+    height:180px;
+    width:300px;
+}
+
+.about-intro {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
